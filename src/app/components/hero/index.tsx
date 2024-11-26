@@ -1,4 +1,4 @@
-import HeroImage from './hero_image';
+import HeroImageSection from './hero_image_section';
 
 const Hero: React.FC = () => {
     return (
@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
                     Cotiza
                 </button>
             </div>
-            <HeroImage />
+            <HeroImageSection />
         </section>
     );
 };
