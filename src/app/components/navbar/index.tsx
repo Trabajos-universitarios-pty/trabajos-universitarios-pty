@@ -37,7 +37,7 @@ const Navbar = () => {
             <ul className="flex gap-3 items-center">
                 {NAVBAR_ITEMS.map(({ id, name }) => (
                     <li
-                        className="hover:text-rust-500 hover:scale-105 transition-all"
+                        className="hover:text-rust-500 transition-colors"
                         key={id}
                     >
                         <a href={`#${name.toLocaleLowerCase()}`}>{name}</a>
