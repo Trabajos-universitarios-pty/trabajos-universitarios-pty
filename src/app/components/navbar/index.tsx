@@ -6,6 +6,7 @@ import ArrowRightIcon from '../common/icons/arrow_right_icon';
 import MenuIcon from '../common/icons/menu-icon';
 import Button from '../common/button';
 import XIcon from '../common/icons/x_icon';
+import Logo from '../common/logo';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -33,15 +34,7 @@ const Navbar = () => {
                 className="transition-all md:hidden items-center p-[10px] flex justify-between rounded-3xl active:opacity-30"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
             >
-                <div className="flex cursor-pointer items-center gap-2 ">
-                    <Image
-                        alt="logo-trabajos-universitarios"
-                        src={'./tupty-logo.svg'}
-                        width={40}
-                        height={40}
-                    ></Image>
-                    <p>trabajos24hpty</p>
-                </div>
+                <Logo />
                 {!isMenuOpen ? <MenuIcon /> : <XIcon />}
             </div>
 
@@ -66,15 +59,7 @@ const Navbar = () => {
                 </div>
             )}
             <div className="hidden p-[10px] justify-between md:flex">
-                <div className="flex items-center gap-2 ">
-                    <Image
-                        alt="logo-trabajos-universitarios"
-                        src={'./tupty-logo.svg'}
-                        width={40}
-                        height={40}
-                    ></Image>
-                    <p>trabajos24hpty</p>
-                </div>
+                <Logo />
 
                 <ul className="flex gap-3 items-center">
                     {NAVBAR_ITEMS.map(({ id, name }) => (
