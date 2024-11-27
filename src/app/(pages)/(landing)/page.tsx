@@ -6,6 +6,9 @@ export default function Landing() {
     return (
         <main className="flex flex-col gap-8 container">
             <Hero />
+            <Hero />
+            <Hero />
+            <Hero />
         </main>
     );
 }

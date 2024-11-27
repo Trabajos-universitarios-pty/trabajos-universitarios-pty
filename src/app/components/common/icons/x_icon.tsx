@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ArrowRightIcon = () => {
+const XIcon = () => {
     return (
         <svg
-            className="h-5 w-5 text-slate-100"
+            className="h-7 w-7 text-slate-500"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -15,11 +15,10 @@ const ArrowRightIcon = () => {
         >
             {' '}
             <path stroke="none" d="M0 0h24v24H0z" />{' '}
-            <line x1="5" y1="12" x2="19" y2="12" />{' '}
-            <line x1="15" y1="16" x2="19" y2="12" />{' '}
-            <line x1="15" y1="8" x2="19" y2="12" />
+            <line x1="18" y1="6" x2="6" y2="18" />{' '}
+            <line x1="6" y1="6" x2="18" y2="18" />
         </svg>
     );
 };
 
-export default ArrowRightIcon;
+export default XIcon;
