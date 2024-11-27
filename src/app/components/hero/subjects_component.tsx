@@ -18,7 +18,7 @@ const SUBJECTS: Subject[] = [
 const Subject: React.FC<Subject> = ({ name, icon }) => (
     <div className="flex gap-4 justify-between">
         {icon}
-        <p className="text-w-shadow ">{name}</p>
+        <p className="txt-appear-animation ">{name}</p>
     </div>
 );
 
@@ -32,7 +32,7 @@ const SubjectsComponent = () => {
 
     return (
         <div
-            className={`${styles} absolute -bottom-[190px] sm:-bottom-[110px] right-2 text-lg font-medium rounded-2xl w-fit p-4 shadow-lg shadow-rust-300 `}
+            className={`${styles} absolute -bottom-[75%] sm:-bottom-[110px] right-2 text-lg font-medium rounded-2xl w-fit p-4 shadow-lg shadow-rust-300 `}
         >
             {SUBJECTS.map((subject, index) => (
                 <Subject key={index} name={subject.name} icon={subject.icon} />
