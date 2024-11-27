@@ -3,9 +3,8 @@ import { useState, useEffect } from 'react';
 import MenuIcon from '../common/icons/menu-icon';
 import XIcon from '../common/icons/x_icon';
 import Logo from '../common/logo';
-import CotizaButton from '../common/buttons/cotiza_button';
-import NavbarLinks from './navbar_links';
 import NavbarMobileMenu from './navbar_mobile_menu';
+import NavbarMenu from './navbar_menu';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -39,13 +38,7 @@ const Navbar = () => {
 
             {isMenuOpen && <NavbarMobileMenu />}
 
-            <div className="hidden p-[10px] justify-between md:flex">
-                <Logo />
-
-                <NavbarLinks isMobile={false} />
-
-                <CotizaButton />
-            </div>
+            <NavbarMenu />
         </nav>
     );
 };
