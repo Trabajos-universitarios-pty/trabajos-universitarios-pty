@@ -1,12 +1,10 @@
 'use client';
-import { NAVBAR_ITEMS } from '@/utils/navbar_items';
 import { useState, useEffect } from 'react';
-import ArrowRightIcon from '../common/icons/arrow_right_icon';
 import MenuIcon from '../common/icons/menu-icon';
-import Button from '../common/buttons/button';
 import XIcon from '../common/icons/x_icon';
 import Logo from '../common/logo';
 import CotizaButton from '../common/buttons/cotiza_button';
+import NavbarLinks from './navbar_links';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -39,35 +37,15 @@ const Navbar = () => {
             </div>
 
             {isMenuOpen && (
-                <div className="md:hidden bg-white flex flex-col w-screen gap-2 h-[230px] justify-between p-5 transition-all rounded shadow-md">
-                    <ul className="flex justify-around flex-col gap-5 items-start ">
-                        {NAVBAR_ITEMS.map(({ id, name }) => (
-                            <li
-                                className="active:text-rust-600 transition-colors"
-                                key={id}
-                            >
-                                <a href={`#${name.toLocaleLowerCase()}`}>
-                                    {name}
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
+                <div className="md:hidden bg-white flex flex-col w-screen gap-2 min-h-[230px] justify-between p-5 transition-all rounded shadow-md">
+                    <NavbarLinks isMobile />
                     <CotizaButton />
                 </div>
             )}
             <div className="hidden p-[10px] justify-between md:flex">
                 <Logo />
 
-                <ul className="flex gap-3 items-center">
-                    {NAVBAR_ITEMS.map(({ id, name }) => (
-                        <li
-                            className="hover:text-rust-600 transition-colors"
-                            key={id}
-                        >
-                            <a href={`#${name.toLocaleLowerCase()}`}>{name}</a>
-                        </li>
-                    ))}
-                </ul>
+                <NavbarLinks isMobile={false} />
 
                 <CotizaButton />
             </div>

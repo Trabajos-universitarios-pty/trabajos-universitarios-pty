@@ -1,4 +1,9 @@
-export const NAVBAR_ITEMS = [
+interface NavbarItem {
+    id: number;
+    name: string;
+}
+
+export const NAVBAR_ITEMS: NavbarItem[] = [
     {
         id: 0,
         name: 'Servicios'
