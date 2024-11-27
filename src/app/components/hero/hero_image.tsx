@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const HeroImage: React.FC = () => {
     return (
-        <div className="relative">
-            <div className="bg-rust-500 w-[400px] h-[300px] absolute bottom-0 right-0 rounded-3xl -z-10 "></div>
+        <div className="relative select-none">
+            <div className=" w-[380px] h-[300px] absolute bottom-0 right-10 rounded-3xl -z-10 bg-gradient-to-tl from-rust-500 to-rust-400 shadow-lg shadow-carrot_orange-100"></div>
             <Image
                 src="/landing-images/hero-img.png"
                 alt="girl graduating"
