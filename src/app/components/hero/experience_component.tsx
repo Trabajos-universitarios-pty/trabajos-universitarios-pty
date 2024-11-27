@@ -7,7 +7,7 @@ const ExperienceComponent = () => {
     const styles = `${not_hover_styles} ${hover_styles}`;
     return (
         <div
-            className={`${styles} absolute z-0 -top-[110px] sm:-top-[86px] left-2 sm:-left-[80px] text-base font-medium  rounded-2xl w-fit p-4  shadow-lg shadow-rust-500 select-none`}
+            className={`${styles} absolute z-0 -top-[110px] sm:-top-[95px] left-2 sm:-left-[80px] text-base font-medium  rounded-2xl w-fit p-4  shadow-lg shadow-rust-500 select-none`}
         >
             <div className="flex items-center">
                 <p className="txt-appear-animation text-3xl">+5 &nbsp; </p>
