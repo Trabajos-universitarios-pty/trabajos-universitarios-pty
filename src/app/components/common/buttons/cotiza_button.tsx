@@ -1,7 +1,6 @@
-import React from 'react';
 import ArrowRightIcon from '../icons/arrow_right_icon';
 
-const CotizaButton = () => {
+const CotizaButton: React.FC = () => {
     return (
         <button
             type="button"

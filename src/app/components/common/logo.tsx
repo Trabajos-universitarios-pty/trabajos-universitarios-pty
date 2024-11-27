@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Logo = () => {
+const Logo: React.FC = () => {
     return (
         <div className="flex cursor-pointer items-center gap-2 ">
             <Image

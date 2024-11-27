@@ -6,7 +6,7 @@ import Logo from '../common/logo';
 import NavbarMobileMenu from './navbar_mobile_menu';
 import NavbarMenu from './navbar_menu';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
