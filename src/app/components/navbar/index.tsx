@@ -1,12 +1,12 @@
 'use client';
 import { NAVBAR_ITEMS } from '@/utils/navbar_items';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import ArrowRightIcon from '../common/icons/arrow_right_icon';
 import MenuIcon from '../common/icons/menu-icon';
-import Button from '../common/button';
+import Button from '../common/buttons/button';
 import XIcon from '../common/icons/x_icon';
 import Logo from '../common/logo';
+import CotizaButton from '../common/buttons/cotiza_button';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -52,10 +52,7 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    <Button>
-                        <p>Cotiza ahora! </p>
-                        <ArrowRightIcon />
-                    </Button>
+                    <CotizaButton />
                 </div>
             )}
             <div className="hidden p-[10px] justify-between md:flex">
@@ -72,10 +69,7 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <Button>
-                    <p>Cotiza ahora! </p>
-                    <ArrowRightIcon />
-                </Button>
+                <CotizaButton />
             </div>
         </nav>
     );
