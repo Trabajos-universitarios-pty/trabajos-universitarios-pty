@@ -6,7 +6,7 @@ body {
 }
 
 @layer components {
-    .text-w-shadow {
+    .txt-appear-animation {
         animation: text-animation 2s;
     }
 
