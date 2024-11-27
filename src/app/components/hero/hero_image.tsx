@@ -7,8 +7,8 @@ const HeroImage: React.FC = () => {
             <Image
                 src="/landing-images/hero-img.png"
                 alt="girl graduating"
-                width={500}
-                height={469}
+                width={450}
+                height={300}
                 unoptimized
                 className="z-10 "
             />

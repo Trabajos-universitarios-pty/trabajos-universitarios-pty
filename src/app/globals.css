@@ -4,3 +4,20 @@
 
 body {
 }
+
+@layer components {
+    .text-w-shadow {
+        animation: text-animation 2s;
+    }
+
+    @keyframes text-animation {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
