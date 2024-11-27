@@ -4,7 +4,7 @@ import NavbarLinks from './navbar_links';
 
 const NavbarMenu: React.FC = () => {
     return (
-        <div className="hidden p-[10px] justify-between md:flex">
+        <div className="hidden py-[10px] justify-between md:flex">
             <Logo />
 
             <NavbarLinks isMobile={false} />

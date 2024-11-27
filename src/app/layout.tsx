@@ -21,11 +21,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body
-                className={`${poppins.className} flex flex-col items-center w-full`}
-            >
-                <Navbar />
-                {children}
+            <body className={`${poppins.className} flex flex-col items-center`}>
+                <div className="container mx-auto px-6">
+                    <Navbar />
+                    {children}
+                </div>
             </body>
         </html>
     );

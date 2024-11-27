@@ -4,7 +4,7 @@ import Hero from '@/app/components/hero';
 
 export default function Landing() {
     return (
-        <main className="flex flex-col gap-8 container">
+        <main className="flex flex-col gap-8">
             <Hero />
         </main>
     );
