@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             } h-[64px] transition-colors w-full top-0 z-50 sticky`}
         >
             <div
-                className="transition-all md:hidden items-center p-[10px] flex justify-between rounded-3xl active:opacity-30"
+                className="transition-all md:hidden items-center py-[10px] flex justify-between rounded-3xl active:opacity-30"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
             >
                 <Logo />
