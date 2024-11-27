@@ -23,8 +23,17 @@ const Subject: React.FC<Subject> = ({ name, icon }) => (
 );
 
 const SubjectsComponent = () => {
+    const not_hover_styles: string =
+        'bg-gradient-to-r from-amber-700 to-carrot_orange-500 ';
+    const hover_styles: string =
+        'hover:scale-105 transition-transform duration-300 hover:from-rufous-500 hover:to-rufous-600 hover:text-white hover:border-2 hover:border-rufous-700';
+
+    const styles = `${not_hover_styles} ${hover_styles}`;
+
     return (
-        <div className="absolute -bottom-16 right-2 text-lg font-medium bg-gradient-to-r from-amber-700 to-carrot_orange-500 rounded-2xl w-fit p-4 shadow-lg shadow-rust-300 hover:scale-105 transition-transform ">
+        <div
+            className={`${styles} absolute -bottom-[190px] sm:-bottom-[110px] right-2 text-lg font-medium rounded-2xl w-fit p-4 shadow-lg shadow-rust-300 `}
+        >
             {SUBJECTS.map((subject, index) => (
                 <Subject key={index} name={subject.name} icon={subject.icon} />
             ))}
