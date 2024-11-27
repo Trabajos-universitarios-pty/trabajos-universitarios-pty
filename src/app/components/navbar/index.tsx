@@ -5,6 +5,7 @@ import XIcon from '../common/icons/x_icon';
 import Logo from '../common/logo';
 import CotizaButton from '../common/buttons/cotiza_button';
 import NavbarLinks from './navbar_links';
+import NavbarMobileMenu from './navbar_mobile_menu';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -36,12 +37,8 @@ const Navbar = () => {
                 {!isMenuOpen ? <MenuIcon /> : <XIcon />}
             </div>
 
-            {isMenuOpen && (
-                <div className="md:hidden bg-white flex flex-col w-screen gap-2 min-h-[230px] justify-between p-5 transition-all rounded shadow-md">
-                    <NavbarLinks isMobile />
-                    <CotizaButton />
-                </div>
-            )}
+            {isMenuOpen && <NavbarMobileMenu />}
+
             <div className="hidden p-[10px] justify-between md:flex">
                 <Logo />
 

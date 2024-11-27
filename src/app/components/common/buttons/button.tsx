@@ -6,7 +6,10 @@ const Button = ({
     children: React.ReactNode;
 }>) => {
     return (
-        <button className="bg-rust-600 hover:bg-rust-700 text-white flex gap-1 items-center p-3 min-w-[180px] transition-all hover:scale-[1.03] rounded-xl ">
+        <button
+            type="button"
+            className="bg-rust-600 hover:bg-rust-700 text-white flex gap-1 items-center p-3 min-w-[180px] transition-all hover:scale-[1.03] rounded-xl "
+        >
             {children}
         </button>
     );
