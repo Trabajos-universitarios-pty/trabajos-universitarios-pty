@@ -1,8 +1,11 @@
 'use client';
-export default function Home() {
+
+import Hero from '@/app/components/hero';
+
+export default function Landing() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            Trabajos U pty
+        <main className="flex flex-col gap-8">
+            <Hero />
         </main>
     );
 }
