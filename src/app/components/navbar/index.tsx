@@ -26,19 +26,21 @@ const Navbar: React.FC = () => {
         <nav
             className={`${
                 scrolled ? 'bg-white  shadow-md' : 'bg-transparent'
-            } h-[64px] transition-colors w-full top-0 z-50 sticky`}
+            } h-[64px] transition-colors w-full top-0 z-50 sticky  `}
         >
-            <div
-                className="transition-all md:hidden items-center py-[10px] flex justify-between rounded-3xl active:opacity-30"
-                onClick={() => setIsMenuOpen((prev) => !prev)}
-            >
-                <Logo />
-                {!isMenuOpen ? <MenuIcon /> : <XIcon />}
+            <div className="container mx-auto px-6">
+                <div
+                    className="transition-all md:hidden items-center py-[10px] flex justify-between rounded-3xl active:opacity-30"
+                    onClick={() => setIsMenuOpen((prev) => !prev)}
+                >
+                    <Logo />
+                    {!isMenuOpen ? <MenuIcon /> : <XIcon />}
+                </div>
+
+                {isMenuOpen && <NavbarMobileMenu />}
+
+                <NavbarMenu />
             </div>
-
-            {isMenuOpen && <NavbarMobileMenu />}
-
-            <NavbarMenu />
         </nav>
     );
 };

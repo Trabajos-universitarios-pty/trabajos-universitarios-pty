@@ -22,9 +22,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${poppins.className} flex flex-col items-center`}>
-                <div className="container mx-auto px-6">
-                    <Navbar />
-                    <div className="w-full mt-16 md:mt-28">{children}</div>
+                <Navbar />
+                <div className="w-full container mx-auto px-6 mt-16 md:mt-28">
+                    {children}
                 </div>
             </body>
         </html>
