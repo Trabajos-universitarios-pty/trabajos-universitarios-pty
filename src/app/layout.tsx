@@ -10,8 +10,16 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'Trabajos universitarios PTY',
-    description: 'Hacemos tu tarea'
+    title: 'Tareas 24h PTY: Tu aliado académico',
+    description:
+        'Tareas 24h PTY te ofrece el mejor servicio de elaboración de trabajos universitarios en Panamá y toda Latinoamérica. Desde tesis y monografías hasta informes y proyectos, nuestros expertos te ayudarán a obtener las mejores calificaciones.',
+    keywords:
+        'tareas universitarias, tesis, monografías, informes, Panamá, Latinoamérica',
+    openGraph: {
+        title: 'Tareas Universitarias 24h PTY: Tesis, Informes, Monografías y Más',
+        description:
+            'El mejor servicio de elaboración de trabajos universitarios en Panamá y Latinoamérica.'
+    }
 };
 
 export default function RootLayout({
