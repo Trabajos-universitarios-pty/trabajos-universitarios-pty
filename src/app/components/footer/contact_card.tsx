@@ -12,7 +12,7 @@ const ContactCard: React.FC<ContactCardProps> = ({
     secondaryText
 }) => {
     return (
-        <div className="flex min-w-[300px] gap-2">
+        <div className="flex md:min-w-[300px] gap-2">
             {Icon && <Icon />}
             <div>
                 <p>{primaryText}</p>
