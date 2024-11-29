@@ -15,7 +15,7 @@ const accordion_props: AccordionProps = {
 
 const accordion_item_props: AccordionItemProps = {
     className:
-        ' bg-gradient-to-r to-rust-900 from-carrot_orange-900  rounded-2xl px-4 my-2',
+        ' bg-gradient-to-r to-rust-900 from-carrot_orange-900  rounded-2xl px-4 my-4',
     children: <></>
 };
 

@@ -7,12 +7,26 @@ export const FAQ = [
     {
         title: '¿Qué garantías tengo?',
         description:
-            'NextUI is a React component library that provides a set of components to help you build your applications faster.'
+            'La satifacción del cliente es nuestra prioridad. Es por ello que al comprometernos con una tarea, garantizamos la entrega en el plazo establecido, tarea original y libre de plagio, el seguimiento detallado de las instrucciones proporcionadas y la calificación mínima de aprobación'
     },
     {
         title: '¿Qué metodos de pago ofrecen?',
         description:
-            'You can contribute to NextUI by submitting a pull request on GitHub.'
+            'Puede pagar fácilmente con: Paypal, Binance, Pago móvil y Banesco Panamá. De tener la intención de pagar con un método diferente a estos, manifestarlo para llegar a una solución, su comodidad es esencial.'
     },
-    { title: '¿Quién realiza las tareas?', description: '' }
+    {
+        title: '¿Quién realiza las tareas?',
+        description:
+            'Tenemos más de 300 docentes y profesionales disponibles las 24 horas para atender a todas sus solicitudes, cada uno de ellos están especializados en los estándares académicos esenciales, así como en una variedad de programas de uso universitario.'
+    },
+    {
+        title: '¿Cómo nos puedes contactar?',
+        description:
+            'Puedes contactarnos por medio de WhatsApp, correo e Instagram, la forma más de preferencia es WhatsApp, ya que es la más inmediata'
+    },
+    {
+        title: '¿Cuánto cuesta mi tarea?',
+        description:
+            'El precio de las tareas se calcula de acuerdo a su extensión, plazo de entrega y dificultad. Te invitamos a utilizar nuestra herramienta de cotización para que conozcas el valor estimado de tu tarea, este es un aproximado, todos los precios finales son determinados por nuestros agentes.'
+    }
 ];
