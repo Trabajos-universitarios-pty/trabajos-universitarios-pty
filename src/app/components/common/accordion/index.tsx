@@ -1,15 +1,30 @@
-import { Accordion, AccordionItem } from '@nextui-org/accordion';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemProps,
+    AccordionProps
+} from '@nextui-org/accordion';
 import { AccordionItemType } from '../../shared/accordion-item';
 
-interface AccordionProps {
+interface Props {
+    accordion_props?: AccordionProps;
+    accordion_item_props?: AccordionItemProps;
     items: AccordionItemType[];
 }
 
-const AccordionComponent: React.FC<AccordionProps> = ({ items }) => {
+const AccordionComponent: React.FC<Props> = ({
+    items,
+    accordion_props,
+    accordion_item_props
+}) => {
     return (
-        <Accordion>
+        <Accordion {...accordion_props}>
             {items.map((item, index) => (
-                <AccordionItem key={index} title={item.title}>
+                <AccordionItem
+                    key={index}
+                    title={item.title}
+                    {...accordion_item_props}
+                >
                     {item.description}
                 </AccordionItem>
             ))}
