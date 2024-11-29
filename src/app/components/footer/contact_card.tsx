@@ -1,0 +1,25 @@
+import React from 'react';
+
+interface ContactCardProps {
+    Icon?: React.ElementType; // Cambiado de React.ReactNode a React.ElementType
+    primaryText?: string;
+    secondaryText?: string;
+}
+
+const ContactCard: React.FC<ContactCardProps> = ({
+    Icon,
+    primaryText,
+    secondaryText
+}) => {
+    return (
+        <div className="flex gap-2">
+            {Icon && <Icon />}
+            <div>
+                <p>{primaryText}</p>
+                <p>{secondaryText}</p>
+            </div>
+        </div>
+    );
+};
+
+export default ContactCard;
