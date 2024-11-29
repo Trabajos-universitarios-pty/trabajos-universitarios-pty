@@ -9,8 +9,8 @@ import SocialLink from './social_link';
 const Footer = () => {
     return (
         // Todo: Quitar el mt200
-        <footer className="mt-[200px] pb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]">
-            <div className="md:flex-row gap-6 justify-center pb-[20px] pt-[20px] flex flex-col border-b-gray-300 border-b-[1px]">
+        <footer className="mt-[400px] mb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]">
+            <div className="lg:flex-row gap-6 justify-center pb-[20px] pt-[20px] flex flex-col border-b-gray-300 border-b-[1px]">
                 <a
                     href="https://mail.google.com/mail/?view=cm&to=loefurbaneja354@gmail.com"
                     target="_blank"
