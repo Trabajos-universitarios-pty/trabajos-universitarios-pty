@@ -3,7 +3,7 @@ import React from 'react';
 const MessageIcon = () => {
     return (
         <svg
-            className="h-8 w-8 text-orange-500"
+            className="h-8 w-8  text-orange-500"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"

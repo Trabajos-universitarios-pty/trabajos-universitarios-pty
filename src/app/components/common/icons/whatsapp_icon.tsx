@@ -2,7 +2,7 @@ import React from 'react';
 
 const WsIcon = () => {
     return (
-        <span className="[&>svg]:h-7 text-orange-500 [&>svg]:w-7">
+        <span className="[&>svg]:h-7 text-orange-500 hover:text-orange-300 transition-colors [&>svg]:w-7">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

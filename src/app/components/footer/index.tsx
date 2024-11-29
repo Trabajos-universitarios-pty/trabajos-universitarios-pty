@@ -16,6 +16,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Enviar correo electronico"
+                    className="hover:opacity-30 transition-opacity"
                 >
                     <ContactCard
                         primaryText="loefurbaneja354@gmail.com"
