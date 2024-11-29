@@ -3,7 +3,7 @@ import React from 'react';
 const IgIcon = () => {
     return (
         <svg
-            className="h-8 w-8 text-orange-500"
+            className="h-6 w-6 text-orange-500"
             width="24"
             height="24"
             viewBox="0 0 24 24"

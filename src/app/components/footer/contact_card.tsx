@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface ContactCardProps {
-    Icon?: React.ElementType; // Cambiado de React.ReactNode a React.ElementType
+    Icon?: React.ElementType;
     primaryText?: string;
     secondaryText?: string;
 }
