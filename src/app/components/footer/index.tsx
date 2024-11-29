@@ -3,10 +3,10 @@ import LocationIcon from '../common/icons/location_icon';
 import MessageIcon from '../common/icons/message_icon';
 import WsIcon from '../common/icons/whatsapp_icon';
 import ContactCard from './contact_card';
-import RightsReserved from './rights reserved';
+import RightsReserved from './rights_reserved';
 import SocialLink from './social_link';
 
-const Footer = () => {
+const Footer: React.FC = () => {
     return (
         // Todo: Quitar el mt200
         <footer className="mt-[400px] mb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]">
