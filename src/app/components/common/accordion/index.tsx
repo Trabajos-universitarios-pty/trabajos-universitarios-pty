@@ -5,6 +5,7 @@ import {
     AccordionProps
 } from '@nextui-org/accordion';
 import { AccordionItemType } from '../../shared/accordion-item';
+import { AnswerIcon, QuestionIcon } from '../icons/accordion_icon';
 
 interface Props {
     accordion_props?: AccordionProps;
@@ -23,9 +24,12 @@ const AccordionComponent: React.FC<Props> = ({
                 <AccordionItem
                     key={index}
                     title={item.title}
+                    indicator={({ isOpen }) =>
+                        isOpen ? <AnswerIcon /> : <QuestionIcon />
+                    }
                     {...accordion_item_props}
                 >
-                    {item.description}
+                    <div className="pb-2">{item.description}</div>
                 </AccordionItem>
             ))}
         </Accordion>
