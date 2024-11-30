@@ -32,7 +32,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${poppins.className} flex flex-col items-center`}>
                 <Navbar />
-                <div className="w-full container mx-auto px-6 mt-16 md:mt-28">
+                <div className="w-full container mx-auto px-6 mt-16 lg:mt-0">
                     {children}
                     <Footer />
                 </div>
