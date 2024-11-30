@@ -1,4 +1,5 @@
 import { FAQ } from '@/utils/faq_items';
+import VArrowIcon from '../components/common/icons/v_arrow_icon';
 
 const Faq = () => {
     return (
@@ -15,20 +16,7 @@ const Faq = () => {
                         <summary className="cursor-pointer text-rust-600 text-lg font-medium flex items-center justify-between">
                             <span>{title}</span>
                             <span className="transition-transform duration-400 transform group-open:rotate-180">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="w-5 h-5"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                        d="M19 9l-7 7-7-7"
-                                    />
-                                </svg>
+                                <VArrowIcon />
                             </span>
                         </summary>
                         <div className="mt-3">{description}</div>
