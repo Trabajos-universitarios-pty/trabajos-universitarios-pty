@@ -29,7 +29,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html className="scroll-smooth " lang="en">
             <body className={`${poppins.className} flex flex-col items-center`}>
                 <Navbar />
                 <div className="w-full container mx-auto px-6 mt-16 md:mt-28">

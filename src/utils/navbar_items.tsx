@@ -6,18 +6,22 @@ interface NavbarItem {
 export const NAVBAR_ITEMS: NavbarItem[] = [
     {
         id: 0,
-        name: 'Servicios'
+        name: 'Inicio'
     },
     {
         id: 1,
-        name: 'FAQ'
+        name: 'Servicios'
     },
     {
         id: 2,
-        name: 'Nosotros'
+        name: 'FAQ'
     },
     {
         id: 3,
+        name: 'Nosotros'
+    },
+    {
+        id: 4,
         name: 'Contactanos'
     }
 ];

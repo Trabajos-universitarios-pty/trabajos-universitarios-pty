@@ -8,10 +8,9 @@ import SocialLink from './social_link';
 
 const Footer: React.FC = () => {
     return (
-        // Todo: Quitar el mt200
         <footer
             id="contactanos"
-            className="mt-[400px] mb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]"
+            className=" mb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]"
         >
             <div className="lg:flex-row gap-6 justify-center pb-[20px] pt-[20px] flex flex-col border-b-gray-300 border-b-[1px]">
                 <a
