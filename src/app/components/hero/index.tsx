@@ -4,7 +4,7 @@ import HeroTextSection from './hero_text_section';
 const Hero: React.FC = () => {
     return (
         <section
-            className="flex flex-col lg:flex-row lg:gap-0 gap-40 justify-between items-center w-full"
+            className="flex flex-col lg:flex-row lg:gap-0 gap-40 justify-between items-center w-full min-h-screen "
             id="inicio"
         >
             <HeroTextSection />
