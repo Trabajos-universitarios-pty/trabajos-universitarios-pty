@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         >
             <div className="container mx-auto px-6">
                 <div
-                    className="transition-all md:hidden items-center py-[10px] flex justify-between rounded-3xl active:opacity-30"
+                    className="transition-all md:hidden cursor-pointer items-center py-[10px] flex justify-between rounded-3xl active:opacity-30"
                     onClick={() => setIsMenuOpen((prev) => !prev)}
                 >
                     <Logo />
