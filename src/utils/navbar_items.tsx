@@ -10,10 +10,14 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
     },
     {
         id: 1,
-        name: 'Contactanos'
+        name: 'FAQ'
     },
     {
         id: 2,
         name: 'Nosotros'
+    },
+    {
+        id: 3,
+        name: 'Contactanos'
     }
 ];
