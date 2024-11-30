@@ -8,6 +8,18 @@ export default {
     ],
     theme: {
         extend: {
+
+            animation: {
+                fadeIn: 'fadeIn 1s ease-in-out',
+            },
+            keyframes: {
+                fadeIn: {
+                    '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' },
+                },
+            },
+
+
             colors: {
                 amber: {
                     DEFAULT: '#f2bb16',
@@ -70,6 +82,7 @@ export default {
                     900: '#f3dcd7'
                 }
             }
+
         }
     },
     plugins: []
