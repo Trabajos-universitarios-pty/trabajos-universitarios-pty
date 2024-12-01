@@ -3,7 +3,7 @@ import WhoAreWeSection from './who_are_we_section';
 
 const AboutUs = () => {
     return (
-        <div>
+        <div className="flex flex-col gap-4">
             <WhoAreWeSection />
             <OurValues />
         </div>
