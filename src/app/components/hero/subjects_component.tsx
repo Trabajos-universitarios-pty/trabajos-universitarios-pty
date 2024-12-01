@@ -12,7 +12,8 @@ const SUBJECTS: Subject[] = [
     { name: 'Matemática', icon: <MathIcon /> },
     { name: 'Química', icon: <ChemistryIcon /> },
     { name: 'Física', icon: <PhysicsIcon /> },
-    { name: 'Inglés', icon: <EnglishIcon /> }
+    { name: 'Inglés', icon: <EnglishIcon /> },
+    { name: 'Y muchas más...', icon: <div></div> }
 ];
 
 const Subject: React.FC<Subject> = ({ name, icon }) => (
