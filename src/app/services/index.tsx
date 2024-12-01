@@ -1,14 +1,19 @@
 import { SERVICES } from '@/utils/services_items';
 import React from 'react';
 
-const Services = () => {
+const Services: React.FC = () => {
     return (
-        <div id="servicios" className="mt-[200px] flex flex-col gap-10">
-            <p className="text-3xl font-medium text-center">Servicios</p>
-            <div className="flex flex-wrap gap-4 items-center justify-center">
+        <div id="servicios" className=" flex flex-col gap-10">
+            <div className="flex flex-col gap-2">
+                <p className="text-rust-600 text-center">SERVICIOS</p>
+                <p className="text-3xl font-medium text-center">
+                    Nuestros Servicios
+                </p>
+            </div>
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 xl:grid-cols-5 grid-cols-1 gap-3">
                 {SERVICES.map(({ description, Icon, title }, index) => (
                     <div
-                        className="flex border bg-white  cursor-pointer  transition-all rounded-xl h-[250px] p-4 flex-col gap-6 w-full md:w-1/3 lg:w-1/3 xl:w-1/4"
+                        className="flex border bg-white  cursor-pointer  transition-all rounded-xl h-[270px] p-4 flex-col gap-6"
                         key={index}
                     >
                         <div className="shadow-md bg-rust-900 p-2 w-fit rounded-md ">

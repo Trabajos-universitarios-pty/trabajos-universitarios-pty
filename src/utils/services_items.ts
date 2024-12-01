@@ -18,6 +18,11 @@ import {
 
 export const SERVICES = [
   {
+    title: "Tesis",
+    description: "Asesoría completa para la redacción y desarrollo de tesis académicas.",
+    Icon: PaperClipIcon
+  },
+  {
     title: "Ensayos",
     description: "Redacción profesional de ensayos académicos y literarios que cumplan con altos estándares de calidad.",
     Icon: PencilIcon
@@ -56,11 +61,6 @@ export const SERVICES = [
     title: "Mapas Mentales y Conceptuales",
     description: "Creación de mapas mentales y conceptuales claros y atractivos.",
     Icon: CodeBracketIcon
-  },
-  {
-    title: "Tesis",
-    description: "Asesoría completa para la redacción y desarrollo de tesis académicas.",
-    Icon: PaperClipIcon
   },
   {
     title: "Anteproyectos",

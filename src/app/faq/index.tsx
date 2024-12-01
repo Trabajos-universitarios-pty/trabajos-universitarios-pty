@@ -3,11 +3,14 @@ import VArrowIcon from '../components/common/icons/v_arrow_icon';
 
 const Faq = () => {
     return (
-        <div className="mb-[50px] flex justify-center" id="faq">
-            <div className="justify-center w-full lg:w-10/12 items-center flex flex-col gap-10">
-                <p className="text-3xl font-medium text-center">
-                    Preguntas Frecuentes
-                </p>
+        <div className="mb-[50px] " id="faq">
+            <div className="justify-center w-full items-center flex flex-col gap-10">
+                <div className="flex flex-col gap-2">
+                    <p className="text-rust-600 text-center">FAQ</p>
+                    <p className="text-3xl font-medium text-center">
+                        Preguntas Frecuentes
+                    </p>
+                </div>
                 <div className="flex w-full flex-col gap-3">
                     {FAQ.map(({ description, title }, index) => (
                         <details
