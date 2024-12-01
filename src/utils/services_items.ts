@@ -6,21 +6,15 @@ import {
   ClipboardIcon,
   AcademicCapIcon,
   ChartBarIcon,
-  CodeBracketIcon,
-  // LibraryIcon,
-  PaperClipIcon,
-  BuildingLibraryIcon,
   PhoneIcon,
   UserGroupIcon,
-  CheckCircleIcon,
-  // DotsHorizontalIcon
 } from '@heroicons/react/24/outline';
 
 export const SERVICES = [
   {
     title: "Tesis",
     description: "Asesoría completa para la redacción y desarrollo de tesis académicas.",
-    Icon: PaperClipIcon
+    Icon: AcademicCapIcon
   },
   {
     title: "Ensayos",
@@ -50,28 +44,15 @@ export const SERVICES = [
   {
     title: "Exámenes",
     description: "Preparación personalizada para rendir exámenes exitosamente.",
-    Icon: AcademicCapIcon
+    Icon: DocumentTextIcon
   },
   {
     title: "Análisis",
     description: "Realización de análisis detallados para proyectos y estudios académicos.",
     Icon: ChartBarIcon
   },
-  {
-    title: "Mapas Mentales y Conceptuales",
-    description: "Creación de mapas mentales y conceptuales claros y atractivos.",
-    Icon: CodeBracketIcon
-  },
-  {
-    title: "Anteproyectos",
-    description: "Elaboración de anteproyectos con enfoque en planificación efectiva.",
-    Icon: PaperClipIcon
-  },
-  {
-    title: "Creación de empresas ficticias",
-    description: "Diseño y planificación de empresas ficticias con modelos de negocio completos.",
-    Icon: BuildingLibraryIcon
-  },
+
+
   {
     title: "Asesorías",
     description: "Orientación académica y profesional personalizada.",
@@ -82,14 +63,6 @@ export const SERVICES = [
     description: "Sesiones de tutoría en diversas materias para reforzar conocimientos.",
     Icon: UserGroupIcon
   },
-  {
-    title: "Correcciones",
-    description: "Revisión y corrección de documentos con estándares académicos.",
-    Icon: CheckCircleIcon
-  },
-  {
-    title: "Y MUCHO MÁS",
-    description: "Ofrecemos una amplia variedad de servicios adicionales según tus necesidades.",
-    Icon: PaperClipIcon
-  }
+
+
 ];
