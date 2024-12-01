@@ -1,15 +1,12 @@
 import { SERVICES } from '@/utils/services_items';
 import React from 'react';
+import TitleSection from '../components/common/title_section';
 
 const Services: React.FC = () => {
     return (
         <div id="servicios" className=" flex flex-col gap-10">
-            <div className="flex flex-col gap-2">
-                <p className="text-rust-600 text-center">SERVICIOS</p>
-                <p className="text-3xl font-medium text-center">
-                    Nuestros Servicios
-                </p>
-            </div>
+            <TitleSection title="Nuestros Servicios" subtitle="SERVICIOS" />
+
             <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 xl:grid-cols-5 grid-cols-1 gap-3">
                 {SERVICES.map(({ description, Icon, title }, index) => (
                     <div

@@ -1,16 +1,13 @@
 import { FAQ } from '@/utils/faq_items';
 import VArrowIcon from '../components/common/icons/v_arrow_icon';
+import TitleSection from '../components/common/title_section';
 
 const Faq = () => {
     return (
         <div className="mb-[50px] " id="faq">
             <div className="justify-center w-full items-center flex flex-col gap-10">
-                <div className="flex flex-col gap-2">
-                    <p className="text-rust-600 text-center">FAQ</p>
-                    <p className="text-3xl font-medium text-center">
-                        Preguntas Frecuentes
-                    </p>
-                </div>
+                <TitleSection title="Preguntas Frecuentes" subtitle="FAQ" />
+
                 <div className="flex w-full flex-col gap-3">
                     {FAQ.map(({ description, title }, index) => (
                         <details
