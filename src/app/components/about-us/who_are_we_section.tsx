@@ -1,8 +1,10 @@
+import TitleSection from '../common/title_section';
+
 const WhoAreWeSection = () => {
     return (
         <div>
-            <h2>¿Quiénes somos?</h2>
-            <p>
+            <TitleSection title="¿Quiénes somos?" subtitle="NOSOTROS" />
+            <p className="mt-4 text-center">
                 Somos un equipo apasionado de profesionales y docentes con más
                 de 5 años de experiencia en el sector académico. Trabajos
                 universitarios PTY, se originó en Panamá, con la finalidad de
