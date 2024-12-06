@@ -6,7 +6,7 @@ const AboutUs = () => {
     return (
         <div>
             <TitleSection title="¿Quiénes somos?" subtitle="NOSOTROS" />
-            <div className="flex flex-col lg:flex-row gap-4 items-center">
+            <div className="flex flex-col lg:flex-row gap-4 lg:gap-10 items-center">
                 <WhoAreWeSection />
                 <OurValues />
             </div>
