@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                     <div className="flex gap-2">
                         <SocialLink
                             href="https://wa.me/13312436527?text=Hola%20trabajos%20universitarios%20Panama%20City,%20estoy%20interesado%20en%20.."
-                            tooltip="Enviamos un mensaje en Whatsapp!"
+                            tooltip="Envianos un mensaje en Whatsapp!"
                             Icon={WsIcon}
                         />
 
