@@ -5,8 +5,8 @@ const CountryImage: React.FC<{ country: string }> = ({ country }) => {
         <Image
             src={'/countries/' + country + '.png'}
             alt={country}
-            width={30}
-            height={20}
+            width={40}
+            height={40}
             unoptimized
         />
     );

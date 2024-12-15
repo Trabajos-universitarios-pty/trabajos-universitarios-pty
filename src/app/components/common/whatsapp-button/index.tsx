@@ -8,19 +8,18 @@ export const WhatsappFAB = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Contáctanos por Whatsapp"
+                className="shadow-2xl rounded-full p-2 transition transform hover:scale-110 hover:shadow-3xl"
             >
                 <Image
                     src="/landing-images/whatsapp.svg"
                     alt="Whatsapp"
                     width={72}
                     height={72}
-                    className="rounded-full"
                 />
             </a>
         </div>
     );
 };
-
 export const WhatsappButton = () => {
     return (
         <a
@@ -28,17 +27,19 @@ export const WhatsappButton = () => {
             target="_blank"
             rel="noopener noreferrer"
             title="Contáctanos por Whatsapp"
-            className="button gap-6 py-4 md:py-2 px-4 justify-center"
+            className="flex items-center pr-[20px] max-h-[48px] text-black font-medium  hover:scale-[1.02]  transition-all border rounded-xl "
         >
-            <Image
-                src="/landing-images/whatsapp.svg"
-                alt="Whatsapp"
-                width={64}
-                height={64}
-                className="rounded-full"
-            />
-            <h2 className="text-2xl font-semibold text-center">
-                Contáctanos por Whatsapp
+            <div className="flex items-center  justify-center w-14 h-14 ">
+                <Image
+                    src="/landing-images/whatsapp.svg"
+                    alt="Whatsapp"
+                    width={36}
+                    height={36}
+                />
+            </div>
+            <h2 className="flex">
+                <span className="hidden  sm:block">Contáctanos</span> +1
+                3312436527
             </h2>
         </a>
     );
