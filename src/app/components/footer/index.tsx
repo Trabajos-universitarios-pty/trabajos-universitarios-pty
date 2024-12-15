@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     return (
         <footer
             id="contactanos"
-            className=" mb-[40px] gap-3 flex-col justify-center flex items-center h-[300px]"
+            className="bg-orange-50 rounded-xl p-[20px] mb-[40px] gap-3 flex-col justify-center flex items-center min-h-[300px]"
         >
             <div className="lg:flex-row gap-6 justify-center pb-[20px] pt-[20px] flex flex-col border-b-gray-300 border-b-[1px]">
                 <a
