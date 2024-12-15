@@ -3,10 +3,15 @@ import CountryImage from './country_image';
 
 const Countries = () => {
     return (
-        <div className="flex justify-between">
-            {COUNTRIES.map((country, index) => (
-                <CountryImage key={index} country={country} />
-            ))}
+        <div className="overflow-hidden relative w-full">
+            {/* Contenedor de las imágenes duplicadas */}
+            <div className="flex animate-marquee">
+                {COUNTRIES.concat(COUNTRIES).map((country, index) => (
+                    <div key={index} className="flex-shrink-0 w-[15%]">
+                        <CountryImage country={country} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
