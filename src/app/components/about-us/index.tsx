@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div>
             <TitleSection title="¿Quiénes somos?" subtitle="NOSOTROS" />
-            <div className="flex flex-col lg:flex-row gap-4 lg:gap-10 mt-6 items-center">
+            <div className="flex flex-col lg:flex-row lg:justify-between gap-4  mt-6 items-center">
                 <Carousel images={POSTS} />
                 <OurValues />
             </div>

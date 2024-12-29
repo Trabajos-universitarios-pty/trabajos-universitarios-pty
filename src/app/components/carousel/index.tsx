@@ -17,9 +17,8 @@ const Carousel = ({ images }: CarouselProps) => {
                         key={index}
                         src={image}
                         alt="carousel image"
-                        width={500}
-                        height={300}
-                        objectFit="contain"
+                        width={400}
+                        height={250}
                         unoptimized
                         className="rounded-lg"
                     />
