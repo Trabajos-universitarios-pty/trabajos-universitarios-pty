@@ -22,6 +22,6 @@ export const NAVBAR_ITEMS: NavbarItem[] = [
     },
     {
         id: 4,
-        name: 'Contactanos'
+        name: 'Contáctanos'
     }
 ];

@@ -27,7 +27,7 @@ export const WhatsappButton = () => {
             target="_blank"
             rel="noopener noreferrer"
             title="Contáctanos por Whatsapp"
-            className="flex items-center pr-[20px] max-h-[48px] text-black font-medium  hover:scale-[1.02]  transition-all border rounded-xl "
+            className="flex items-center pr-[20px] max-h-[48px] bg-rust-600 text-white font-medium  hover:scale-[1.02]  transition-all  rounded-xl "
         >
             <div className="flex items-center  justify-center w-14 h-14 ">
                 <Image
@@ -38,7 +38,7 @@ export const WhatsappButton = () => {
                 />
             </div>
             <h2 className="flex">
-                <span className="hidden  sm:block">Contáctanos</span> +1
+                <span className="hidden sm:block ">Contáctano</span> s +1
                 3312436527
             </h2>
         </a>
