@@ -1,4 +1,3 @@
-import CotizaButton from '../common/buttons/cotiza_button';
 import Logo from '../common/logo';
 import NavbarLinks from './navbar_links';
 
@@ -8,8 +7,6 @@ const NavbarMenu: React.FC = () => {
             <Logo />
 
             <NavbarLinks isMobile={false} />
-
-            <CotizaButton />
         </div>
     );
 };

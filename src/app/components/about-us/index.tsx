@@ -5,7 +5,7 @@ import OurValues from './our_values_section';
 
 const AboutUs = () => {
     return (
-        <div className="">
+        <div id="nosotros" className="">
             <TitleSection title="¿Quiénes somos?" subtitle="NOSOTROS" />
             <div className="flex flex-col lg:flex-row lg:justify-between gap-4  mt-6 items-center bg-rust-900 rounded-lg  p-8">
                 <Carousel images={POSTS} />
