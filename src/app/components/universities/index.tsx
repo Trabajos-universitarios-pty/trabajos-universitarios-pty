@@ -25,7 +25,7 @@ const Universities = () => {
                     {universities_list.map((uni, index) => (
                         <div
                             key={index}
-                            className="flex justify-center items-center"
+                            className="flex justify-center items-center transition transform hover:scale-110 hover:shadow-3xl"
                         >
                             <Image
                                 src={uni.logo}

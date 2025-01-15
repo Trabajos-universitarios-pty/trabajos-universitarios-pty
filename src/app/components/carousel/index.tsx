@@ -20,7 +20,13 @@ const Carousel = ({ images }: CarouselProps) => {
                         width={400}
                         height={250}
                         unoptimized
-                        className="rounded-lg"
+                        className="rounded-lg cursor-pointer transition transform hover:scale-[1.02] p-2"
+                        onClick={() =>
+                            window.open(
+                                'https://www.instagram.com/tareas24hpty/',
+                                '_blank'
+                            )
+                        }
                     />
                 ))}
             />

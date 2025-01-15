@@ -1,4 +1,3 @@
-import CotizaButton from '../common/buttons/cotiza_button';
 import { WhatsappButton } from '../common/whatsapp-button';
 
 const HeroTextSection: React.FC = () => {
@@ -13,7 +12,6 @@ const HeroTextSection: React.FC = () => {
                 </h2>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-                <CotizaButton />
                 <WhatsappButton />
             </div>
         </div>
