@@ -1,1 +1,1 @@
-# trabajos-universitarios-pty
+# tareas-24h-pty

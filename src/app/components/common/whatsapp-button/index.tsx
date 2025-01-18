@@ -4,7 +4,7 @@ export const WhatsappFAB = () => {
     return (
         <div className="fixed bottom-8 right-8">
             <a
-                href="https://wa.me/13312436527?text=Hola%20trabajos%20universitarios%20Panama%20City,%20estoy%20interesado%20en%20.."
+                href="https://wa.me/13312436527?text=Hola%20Tareas%20Universitarias%20Panama%20City,%20estoy%20interesado%20en%20.."
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Contáctanos por Whatsapp"
@@ -23,7 +23,7 @@ export const WhatsappFAB = () => {
 export const WhatsappButton = () => {
     return (
         <a
-            href="https://wa.me/13312436527?text=Hola%20trabajos%20universitarios%20Panama%20City,%20estoy%20interesado%20en%20.."
+            href="https://wa.me/13312436527?text=Hola%20Tareas%20Universitarias%20Panama%20City,%20estoy%20interesado%20en%20.."
             target="_blank"
             rel="noopener noreferrer"
             title="Contáctanos por Whatsapp"

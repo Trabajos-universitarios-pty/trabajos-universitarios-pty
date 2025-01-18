@@ -9,9 +9,7 @@ const WhoAreWeSection = () => {
                 en el sector académico.
                 <br />
                 <br />
-                <span className="text-rust-600">
-                    Trabajos universitarios PTY
-                </span>
+                <span className="text-rust-600">Tareas 24h PTY</span>
                 , se originó en Panamá, con la finalidad de brindar un servicio
                 de calidad y confianza a estudiantes universitario. Con el paso
                 de los años y debido al rápido crecimiento de este proyecto, nos
