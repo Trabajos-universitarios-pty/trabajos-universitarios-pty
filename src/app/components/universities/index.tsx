@@ -4,14 +4,32 @@ import TitleSection from '../common/title_section';
 
 const Universities = () => {
     const universities_list = [
-        { name: 'Universidad A', logo: '/universities/aden.png' },
-        { name: 'Universidad B', logo: '/universities/tup.png' },
-        { name: 'Universidad B', logo: '/universities/uam.png' },
-        { name: 'Universidad B', logo: '/universities/uip.png' },
-        { name: 'Universidad B', logo: '/universities/universidad-latino.png' },
-        { name: 'Universidad B', logo: '/universities/universidad-panama.png' }
-
-        // Añadir más universidades y sus logos aquí
+        { name: 'Universidad Aden', logo: '/universities/aden.png' },
+        {
+            name: 'Universidad Tecnológica de Panamá',
+            logo: '/universities/tup.png'
+        },
+        { name: 'Universidad de Americana', logo: '/universities/uam.png' },
+        {
+            name: 'Universidad Interamericana de Panamá',
+            logo: '/universities/uip.png'
+        },
+        {
+            name: 'Universidad Latina de Panamá',
+            logo: '/universities/universidad-latino.png'
+        },
+        {
+            name: 'Universidad de Panamá',
+            logo: '/universities/universidad-panama.png'
+        },
+        {
+            name: 'Universidad del Istmo',
+            logo: '/universities/universidad-udi.png'
+        },
+        {
+            name: 'Universidad Católica Santa María la antigua',
+            logo: '/universities/usma.png'
+        }
     ];
 
     return (
