@@ -35,17 +35,18 @@ const Footer: React.FC = () => {
                             Icon={LocationIcon}
                         />
                     </div>
-                    <div>
-                        <div className="flex items-center  text-xl text-rufous-600 font-medium ">
+                    <div className="flex items-center text-lg">
+                        <div className="flex items-center text-rust-600 font-semibold ">
                             <Image
                                 src="/landing-images/whatsapp.svg"
                                 alt="Whatsapp"
                                 width={36}
                                 height={36}
-                                className="w-10 h-10  "
+                                className="w-9 h-9  "
                             />
-                            Contáctanos +1 3312436527
+                            &nbsp;Contáctanos &nbsp;
                         </div>
+                        <span className="font-medium">+ 1 3312436527</span>
                     </div>
                 </div>
                 <div className="flex gap-[30px] flex-col items-start">
@@ -60,12 +61,14 @@ const Footer: React.FC = () => {
                             tooltip="Envianos un mensaje en Whatsapp!"
                             Icon={WsIcon}
                         />
-
                         <SocialLink
                             href="https://www.instagram.com/tareas24hpty/"
                             tooltip="Siguenos en instagram!"
                             Icon={IgIcon}
                         />
+                        <span className="font-medium">
+                            Trabajamos las 24 horas del día para ti
+                        </span>
                     </div>
                 </div>
             </div>
