@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
             className="bg-orange-50 rounded-xl p-[20px] mb-[40px] gap-3 flex-col justify-center flex items-center min-h-[300px]"
         >
             <div className="lg:flex-row gap-6 justify-center py-5 flex flex-col border-b-gray-300 border-b-[1px]">
-                <div className="flex flex-col justify-between">
-                    <div className="flex gap-6">
+                <div className="flex flex-col justify-between gap-3 md:gap-0">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <a
                             href="https://mail.google.com/mail/?view=cm&to=loefurbaneja354@gmail.com"
                             target="_blank"
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                             Icon={LocationIcon}
                         />
                     </div>
-                    <div className="flex items-center text-lg">
+                    <div className="flex items-center text-base md:text-lg">
                         <div className="flex items-center text-rust-600 font-semibold ">
                             <Image
                                 src="/landing-images/whatsapp.svg"

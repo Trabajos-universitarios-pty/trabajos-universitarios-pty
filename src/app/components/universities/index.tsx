@@ -35,7 +35,7 @@ const Universities = () => {
     return (
         <section className="flex mt-9 flex-col gap-6">
             <TitleSection
-                subtitle="Universidades"
+                subtitle="UNIVERSIDADES"
                 title="Hemos trabajado con"
             />
             <div className="py-16 rounded-xl bg-orange-50 container mx-auto px-6 text-center">
