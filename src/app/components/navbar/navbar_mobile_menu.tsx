@@ -1,4 +1,3 @@
-import CotizaButton from '../common/buttons/cotiza_button';
 import NavbarLinks from './navbar_links';
 
 const NavbarMobileMenu: React.FC = () => {
